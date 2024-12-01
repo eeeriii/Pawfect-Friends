@@ -463,6 +463,36 @@ text-align: start;
     text-align: right;
     color: #ff6b6b;
 }
+.contact-form {
+    max-width: 500px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+}
+/*contact form*/
+.contact-form button {
+    background-color: #6f0921;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #51b629;
+}
+
 /* Footer */
 .footer {
     background-color: #333;

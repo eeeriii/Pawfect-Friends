@@ -351,9 +351,10 @@ ul li a:hover{
 /* Pet Gallery */
 .pet-gallery {
     display: flex;
-    justify-content: center;
-    gap: 20px;
     flex-wrap: wrap;
+    justify-content: center; /* Center align cards */
+    gap: 20px; /* Spacing between cards */
+    padding: 20px; /* Add padding for better layout */
 }
 
 .pet-card {
@@ -361,7 +362,8 @@ ul li a:hover{
     border: 1px solid #ddd;
     border-radius: 10px;
     padding: 15px;
-    width: 250px;
+    width: calc(33.33% - 40px); /* Fit three cards per row */
+    max-width: 250px; /* Prevent oversized cards */
     text-align: center;
     transition: transform 0.3s, box-shadow 0.3s;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -376,15 +378,14 @@ ul li a:hover{
     width: 100%;
     border-radius: 10px;
     margin-bottom: 10px;
-    height: 50%;
-    
+    height: 200px; /* Uniform image height */
+    object-fit: cover; /* Crop images neatly */
 }
 
 .pet-card h3 {
     color: #9e4c4c;
     margin-top: 10px;
 }
-
 /* Service Card */
 .service-card {
     background-color: #006f66;

@@ -386,6 +386,11 @@ ul li a:hover{
     color: #9e4c4c;
     margin-top: 10px;
 }
+.container{
+    padding: 0 100px;
+    
+}
+
 .le{
 text-align: center;
 font-size: 250%;

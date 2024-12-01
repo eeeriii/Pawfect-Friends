@@ -406,3 +406,18 @@ text-align: start;
 .oo{
     margin-top: 30px;
 }
+/* komentet*/
+.testimonial {
+    background: #ffe6e6;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 600px;
+    text-align: left;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial h4 {
+    text-align: right;
+    color: #ff6b6b;
+}

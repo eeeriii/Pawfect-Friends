@@ -343,3 +343,66 @@ ul li a:hover{
 .about-us-content strong {
     font-weight: bold;
 }
+
+.container{
+    padding: 0 100px;
+    
+}
+
+.le{
+text-align: center;
+font-size: 250%;
+}
+.service-one{
+    height: 200px;
+    weight: 200px;
+    background-color: #20757a;
+    display: inline-block;
+    float:right;
+    width: 500px;
+    gap: 10px;
+    border-radius: 25px;
+    text-align: start ;
+}
+.service-two{
+    height: 200px;
+    weight: 300px;
+    background-color: #20757a;
+    display: inline-block;
+    float: left;
+    width: 500px;
+    gap: 20px;
+    border-radius: 25px;
+    text-align: start;
+}
+.service-three{
+    height: 200px;
+    background-color: #20757a;
+    weight: 200px;
+    display: inline-block;
+    float: left;
+    width: 500px;
+    gap: 30px;
+    margin-top: 30px;
+    border-radius: 25px;
+    text-align: start;
+}
+.service-four{
+   
+    height: 200px;
+    background-color: #34d4af;
+    weight: 200px;
+    display: inline-block;
+    float: right;
+    width: 500px;
+    gap: 30px;
+    margin-top: 30px;
+border-radius: 25px;
+text-align: start;
+}
+.section-title{
+
+}
+.oo{
+    margin-top: 30px;
+}

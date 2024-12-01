@@ -343,3 +343,40 @@ ul li a:hover{
 .about-us-content strong {
     font-weight: bold;
 }
+.pet-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center align cards */
+    gap: 20px; /* Spacing between cards */
+    padding: 20px; /* Add padding for better layout */
+}
+/*Our Pets// pet cards*/
+.pet-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    width: calc(33.33% - 40px); /* Fit three cards per row */
+    max-width: 250px; /* Prevent oversized cards */
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.pet-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.pet-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    height: 200px; /* Uniform image height */
+    object-fit: cover; /* Crop images neatly */
+}
+
+.pet-card h3 {
+    color: #9e4c4c;
+    margin-top: 10px;
+}

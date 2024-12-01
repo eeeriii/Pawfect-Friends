@@ -310,7 +310,7 @@ ul li a:hover{
     left: 0;
     width: 100%;
     height: 100%;
-    background: url(ppaws.png) no-repeat center center; 
+    background: url(paws.png) no-repeat center center; 
     background-size: contain; 
     opacity: 0.5; 
     pointer-events: none; /
@@ -343,11 +343,6 @@ ul li a:hover{
 .about-us-content strong {
     font-weight: bold;
 }
-
-.container{
-    padding: 0 100px;
-    
-}
 /* Pet Gallery */
 .pet-gallery {
     display: flex;
@@ -378,14 +373,36 @@ ul li a:hover{
     width: 100%;
     border-radius: 10px;
     margin-bottom: 10px;
-    height: 200px; /* Uniform image height */
-    object-fit: cover; /* Crop images neatly */
+    height: 200px; 
+    object-fit: cover; 
 }
 
 .pet-card h3 {
     color: #9e4c4c;
     margin-top: 10px;
 }
+#services {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+#services h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Service Container */
+.service-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    margin-top: 20px;
+}
+
 /* Service Card */
 .service-card {
     background-color: #006f66;
@@ -401,8 +418,12 @@ ul li a:hover{
     transform: translateY(-5px);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
-  
-   
+
+/* Icon Styles */
+.service-card img {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
 
 /* komentet*/
 .testimonial {
@@ -419,6 +440,7 @@ ul li a:hover{
     text-align: right;
     color: #ff6b6b;
 }
+/*contact form*/
 .contact-form {
     max-width: 500px;
     margin: 20px auto;
@@ -434,7 +456,7 @@ ul li a:hover{
     border-radius: 5px;
     font-size: 1em;
 }
-/*contact form*/
+
 .contact-form button {
     background-color: #6f0921;
     color: white;

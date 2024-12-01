@@ -386,68 +386,33 @@ ul li a:hover{
     color: #9e4c4c;
     margin-top: 10px;
 }
-.container{
-    padding: 0 100px;
-    
-}
-
-.le{
-text-align: center;
-font-size: 250%;
-}
-.service-one{
-    height: 200px;
-    weight: 200px;
-    background-color: #20757a;
-    display: inline-block;
-    float:right;
-    width: 500px;
-    gap: 10px;
-    border-radius: 25px;
-    text-align: start ;
-}
-.service-two{
-    height: 200px;
-    weight: 300px;
-    background-color: #20757a;
-    display: inline-block;
-    float: left;
-    width: 500px;
+/* Service Container */
+.service-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     gap: 20px;
-    border-radius: 25px;
-    text-align: start;
+    margin-top: 20px;
 }
-.service-three{
-    height: 200px;
-    background-color: #20757a;
-    weight: 200px;
-    display: inline-block;
-    float: left;
-    width: 500px;
-    gap: 30px;
-    margin-top: 30px;
-    border-radius: 25px;
-    text-align: start;
-}
-.service-four{
-   
-    height: 200px;
-    background-color: #34d4af;
-    weight: 200px;
-    display: inline-block;
-    float: right;
-    width: 500px;
-    gap: 30px;
-    margin-top: 30px;
-border-radius: 25px;
-text-align: start;
-}
-.section-title{
 
+/* Service Card */
+.service-card {
+    background-color: #006f66;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 22%;
+    box-sizing: border-box;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.oo{
-    margin-top: 30px;
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
+  
+   
+
 /* komentet*/
 .testimonial {
     background: #ffe6e6;
